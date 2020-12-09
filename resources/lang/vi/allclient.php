@@ -99,7 +99,7 @@ return [
 
 
     //footer
-    'dev' => 'Đội ngủ phát triển',
+    'dev' => 'Đội ngũ phát triển',
     'copy_right' => 'Bản quyền bởi',
     'rule' => 'Ðiều khoản',
     'policy' => 'Chính sách',
