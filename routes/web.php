@@ -8,7 +8,7 @@ Route::namespace('Client')->group(function () {
   //Da Ngon Ngu
   Route::get('clientlang/{lang}','HomeController@changeLang')->name('clientlang');
   //Login
-  Route::get('/login', 'LoginController@showLoginForm')->name('client.login');
+  //Route::get('/login', 'LoginController@showLoginForm')->name('client.login');
   Route::post('/login', 'LoginController@clientLogin')->name('client.login');
   //Logout
   Route::post('/logout', 'LoginController@logout')->name('client.logout');
